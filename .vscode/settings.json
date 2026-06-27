@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "chat.disableAIFeatures": false,
+=======
+  "chat.disableAIFeatures": true,
+>>>>>>> c894c0e08a0b27e55ee3c3052dc9a800a62ef255
   "chat.agent.enabled": false,
   "editor.inlineSuggest.enabled": false,
   "files.exclude": {

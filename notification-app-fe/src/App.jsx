@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { useEffect } from "react";
 import { BrowserRouter, Routes, Route, useNavigate, useLocation } from "react-router-dom";
 import { ThemeProvider, createTheme, CssBaseline, AppBar, Toolbar, Typography, Container, Tabs, Tab, Box } from "@mui/material";
@@ -60,3 +61,8 @@ export default function App() {
     </ThemeProvider>
   );
 }
+=======
+export default function App() {
+  return "Notifications App";
+}
+>>>>>>> c894c0e08a0b27e55ee3c3052dc9a800a62ef255

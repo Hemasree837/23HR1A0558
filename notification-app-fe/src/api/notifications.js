@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { Log } from "affordmed-logging-middleware";
 
 const API_BASE = "http://4.224.186.213/evaluation-service";
@@ -26,4 +27,7 @@ export async function fetchNotifications({ limit = 20, page = 1, notification_ty
     await Log("frontend", "error", "api", `Fetch failed: ${err.message}`);
     throw err;
   }
+=======
+export function fetchNotifications() {
+>>>>>>> c894c0e08a0b27e55ee3c3052dc9a800a62ef255
 }
